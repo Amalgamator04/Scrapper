@@ -26,19 +26,6 @@ def zip_directory(directory, zip_name):
     return zip_path
 
 
-# Set up custom CSS for background color
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-color: purple;
-        color: white;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 # Streamlit app title
 st.title('Google Image Scraper')
 
